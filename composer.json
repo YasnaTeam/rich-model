@@ -1,0 +1,32 @@
+{
+    "name": "yasnateam/rich-model",
+    "description": "A Set of Helpful method to Form a Layer Over the Eloquent Models",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Taha Kamkar",
+            "email": "github.taha@gmail.com"
+        }
+    ],
+    "keywords": ["Laravel","Model","Eloquent","dutymess","Taha","Yasnateam"],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Yasnateam\\RichModel\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Yasnateam\\Modular\\RichModelServiceProvider"
+            ],
+            "aliases": {
+            }
+        }
+    },
+    "require": {
+
+    },
+    "prefer-stable": true
+}
